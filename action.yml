@@ -1,11 +1,11 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: "Better Upptime Monitor"
+description: "Uptime monitor and status page powered entirely by GitHub"
+author: "Zaid-maker"
 inputs:
-  milliseconds: # change this
+  commands:
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: "command to run"
+    default: "update"
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+  using: "node16"
+  main: "dist/index.js"
