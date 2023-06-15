@@ -84,6 +84,7 @@ function wait(milliseconds) {
             if (isNaN(milliseconds)) {
                 throw new Error('milliseconds not a number');
             }
+            // setTimeout()
             setTimeout(() => resolve('done!'), milliseconds);
         });
     });
